@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #222;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.upload-btn {
+    background: #f2f2f2;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+main h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 160px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    margin-top: 8px;
+    font-weight: 500;
+}
